@@ -1,0 +1,39 @@
+
+{
+  "action": "find",
+  "modelName": "Transaction",
+  "filter": {
+    "type": "sale",
+    "status": "open",
+    "listingStatus": "published",
+    "pLocation": {
+      "$geoWithin": {
+        "$box": [
+          [106.4548649931641, 10.528119476544555],
+          [106.86547900683597, 10.996942226242597]
+        ]
+      }
+    }
+  },
+  "options": {
+    "offset": 0,
+    "limit": 100,
+    "sort": {
+      "_createdAt": -1
+    },
+    "refFields": [
+  "@user_TransactionUserMark","@contact","@page",
+  "@transaction_TransactionProperty","@transaction_TransactionPropertyDetail"
+],
+
+    "backRefFields": [
+      "@user_TransactionUserMark",
+      "@transaction_TransactionDocument",
+      "@transaction_TransactionPropertyImage",
+      "@model_TransactionUserMarkSummary"
+    ],
+    "userMarks": true,
+    "text": "",
+    "count": true
+  }
+}
