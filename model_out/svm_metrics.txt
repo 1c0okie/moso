@@ -1,0 +1,14 @@
+=== SVR (RBF) on moso_clean ===
+Input: moso_clean.csv
+Samples: train=1619, test=405
+log-target: False
+
+Train:
+  MAE  : 4,055,651,341 VND (~4.056 tỷ)
+  RMSE : 5,933,367,265 VND (~5.933 tỷ)
+  R^2  : -0.0889
+
+Test:
+  MAE  : 4,115,308,410 VND (~4.115 tỷ)
+  RMSE : 6,191,122,568 VND (~6.191 tỷ)
+  R^2  : -0.1379
