@@ -1,26 +1,26 @@
 Input : moso_api_data.csv
 Output: moso_clean.csv
-Tổng dòng: 2024
+Tổng dòng: 2224
 IQR: 1.5
 Imputation: median
 
 I. Số liệu sau IQR:
-- Giá (VND) | masked=154 NaN=154 | Clip=[-8750000000.0, 27650000000.0] | Min/Med/Mean/Max=1000000000.0/7100000000.0/9034224598.9/27500000000.0
-- Diện tích sử dụng | masked=93 NaN=479 | Clip=[-130.2, 411.9] | Min/Med/Mean/Max=9.5/115.7/138.3/409.4
-- Diện tích đất | masked=169 NaN=258 | Clip=[-39.6, 180.6] | Min/Med/Mean/Max=4.8/61.0/67.0/180.0
-- Số ngày từ đăng | masked=0 NaN=0 | Clip=[-76.5, 191.5] | Min/Med/Mean/Max=0.0/59.0/58.5/136.0
+- Giá (VND) | masked=167 NaN=167 | Clip=[-8500000000.0, 27500000000.0] | Min/Med/Mean/Max=1000000000.0/7100000000.0/9009431210.5/27500000000.0
+- Diện tích sử dụng | masked=99 NaN=557 | Clip=[-128.0, 409.2] | Min/Med/Mean/Max=7.0/116.8/138.5/405.2
+- Diện tích đất | masked=185 NaN=272 | Clip=[-38.9, 178.5] | Min/Med/Mean/Max=4.8/60.3/66.4/177.3
+- Số ngày từ đăng | masked=0 NaN=0 | Clip=[-91.0, 205.0] | Min/Med/Mean/Max=0.0/50.0/58.8/142.0
 
 II. Địa chỉ (TP. Hồ Chí Minh):
-- Có địa chỉ chuẩn: 2024/2024
+- Có địa chỉ chuẩn: 2224/2224
 - Top Quận/Huyện/TP:
-  + TP Thủ Đức: 131
+  + TP Thủ Đức: 142
   + Quận 3: 21
   + Quận 1: 19
-  + Quận 10: 15
-  + Quận 5: 14
+  + Quận 10: 16
+  + Quận 7: 14
 - Top Phường/Xã/TT:
-  + Phường 13: 12
-  + Phường 10: 12
-  + Phường 15: 11
-  + Phường 4: 11
-  + Phường 1: 11
+  + Phường 4: 14
+  + Phường 10: 13
+  + Phường 1: 13
+  + Phường 14: 13
+  + Phường 15: 12
